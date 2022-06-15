@@ -1,0 +1,43 @@
+{
+    "javascript.preferences.importModuleSpecifier": "relative",
+    "typescript.preferences.importModuleSpecifier": "relative",
+    "typescript.tsserver.maxTsServerMemory": 8000,
+    "editor.formatOnSave": true,
+    "editor.tabSize": 2,
+    "editor.defaultFormatter": "esbenp.prettier-vscode",
+    "jest.autoRun": "off",
+    "javascript.updateImportsOnFileMove.enabled": "always",
+    "cSpell.customDictionaries": {
+      "custom-dictionary-workspace": {
+        "name": "custom-dictionary-workspace",
+        "path": "${workspaceFolder:gadget}/.cspell/custom-dictionary-workspace.txt",
+        "addWords": true,
+        "scope": "workspace"
+      }
+    },
+    "files.associations": {
+      "*.ejs": "ejs"
+    },
+    "[javascript]": {
+      "editor.defaultFormatter": "esbenp.prettier-vscode"
+    },
+    "[jsonc]": {
+      "editor.defaultFormatter": "esbenp.prettier-vscode"
+    },
+    "[typescriptreact]": {
+      "editor.defaultFormatter": "esbenp.prettier-vscode"
+    },
+    "[typescript]": {
+      "editor.defaultFormatter": "esbenp.prettier-vscode"
+    },
+    "[json]": {
+      "editor.defaultFormatter": "esbenp.prettier-vscode"
+    },
+    "[nix]": {
+      "editor.defaultFormatter": "jnoortheen.nix-ide"
+    },
+    "[ejs]": {
+      "editor.formatOnSave": false
+    }
+  }
+  
